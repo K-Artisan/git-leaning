@@ -3306,7 +3306,7 @@ drwxr-xr-x 1 wei 197121   0 Dec 29 12:48 ../
 
 
 ```powershell
-$ cat ~/.ssh/id_ed25519 #公钥内容
+$ cat ~/.ssh/id_ed25519.pub #私钥内容
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 QyNTUxOQ
@@ -4689,7 +4689,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
 
-##### 删除:git mv readhim.md
+##### 删除:git rm readhim.md
 
 ```powershell
 $ git rm readhim.md
@@ -4717,7 +4717,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 
-##### 删除:git mv readher.md
+##### 删除:git rm readher.md
 
 ```powershell
 $ git rm readher.md
